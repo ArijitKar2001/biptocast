@@ -42,12 +42,3 @@ We built and evaluated several machine learning models:
 ## Model Evaluation
 
 The models were evaluated based on various metrics. The model with the best performance on the validation set was selected as the final model.
-
-
-## Usage
-
-To run the code, clone the repository and follow these steps:
-
-1. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
