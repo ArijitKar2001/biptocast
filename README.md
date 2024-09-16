@@ -4,17 +4,9 @@
 
 This project aims to predict Bitcoin prices using historical data. We have employed several machine learning techniques, including data processing, feature engineering, and model building to identify the best model for predicting Bitcoin prices. The models used include XGBoost, K-Nearest Neighbors (KNN), Linear Regression, and Random Forest.
 
-## Project Structure
-
-- `data/` - Contains the dataset used for training and testing.
-- `notebooks/` - Jupyter notebooks with exploratory data analysis, feature engineering, and model evaluation.
-- `scripts/` - Python scripts for data processing, feature engineering, and model training.
-- `models/` - Serialized models and their evaluation metrics.
-- `results/` - Results of model predictions and performance evaluations.
-
 ## Dataset
 
-The dataset used in this project includes historical Bitcoin price data. It is collected from [source], and contains features such as:
+The dataset used in this project includes historical Bitcoin price data. It contains features such as:
 - Timestamp
 - Open Price
 - High Price
@@ -37,8 +29,7 @@ The dataset used in this project includes historical Bitcoin price data. It is c
 
 ## Stationarity Check
 
-To ensure that our time series data is suitable for modelling, we performed a stationarity check using the Augmented Dickey-Fuller (ADF) test. Differencing techniques were applied to achieve stationarity where necessary.
-
+To ensure that our time series data is suitable for modelling, we performed a stationarity check using the Augmented Dickey-Fuller (ADF) test.
 ## Model Building
 
 We built and evaluated several machine learning models:
