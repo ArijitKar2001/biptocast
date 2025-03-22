@@ -1,6 +1,3 @@
-Here's a more polished and professional version of your text with enhanced readability, clarity, and the addition of emojis for better presentation:  
-
----
 
 # 🚀 Bitcoin Price Prediction Using Machine Learning  
 
